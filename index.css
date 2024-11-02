@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(8, 58, 144);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    color: rgb(189, 200, 210);
+}
+#patio {
+    margin-bottom:100px;
+    width: 80%;
+    text-align: center;
+
+}
+#patio tbody{
+    margin: 10px;
+}
+#patio tr{
+   text-transform: uppercase;
+}
+.digitar{
+    display: inline-block;
+    margin: 10px;
+}
+button{
+    height: 50px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+input{
+    height: 50px;
+    color: white;
+    background-color: black;  
+    text-transform: uppercase;
+}
